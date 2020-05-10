@@ -1,0 +1,65 @@
+﻿<html lang="es">
+<!DOCTYPE html>
+
+<head>
+	<title>Prueba de Estilos</title>
+	<link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css">
+	
+	<!-- <style> -->
+		<!-- h1 { -->
+			<!-- background-color:#8A2BE2; -->
+			<!-- color:#FFD700; -->
+			<!-- border: tomato solid 2px; -->
+		<!-- } -->
+		
+		<!-- p { -->
+			<!-- text-align:center -->
+		<!-- } -->
+	<!-- </style> -->
+	<script>
+		function cambiarTamanio() {
+			document.getElementById('txtNombre').style = 'width: 50px;';
+		}
+	</script>
+</head>
+<body>
+	<h1>Bienvenidos a Programación 3</h1>
+	<p>Que materia tan interesante</p>
+	<div class="container">
+	
+	</div>
+		<p>Pruebas de bootstrap: Container</p>		
+	<div>
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-6">
+				<p>Contenido de la izquierda</p>
+			</div>
+			<div class="col-6">
+				<div class="row">
+					<div class="col-4 bg-primary"><p>Division 1</p></div>
+					<div class="col-4 bg-danger"><p>Division 2</p></div>
+					<div class="col-4 bg-success"><p>Division 3</p></div>
+				</div>
+			</div>
+		</div>
+	</div>	
+		<p style="margin:5px;text-align:justify">Texto de prueba para etiqueta div</p>
+	</div>
+	<form>
+		<input type="text" display="block">
+		<input type="button" value "Aceptar" class="btn btn-primary" onclick="validarForm()">
+	</form>
+	<p>Otro texto fuera del div</p>
+	<script>
+		function validarForm() {
+			let txtNombre = document.getElementById('txtNombre');
+			if (txtNombre.value == "")
+			{
+				alert('Cargue el valor');
+			}	
+		}
+	</script>
+</body>
+</html>

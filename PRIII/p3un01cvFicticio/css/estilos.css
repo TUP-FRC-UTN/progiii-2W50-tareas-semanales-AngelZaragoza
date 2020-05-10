@@ -1,4 +1,11 @@
-﻿h1, h3 {
+﻿img {
+	float:left;
+	width:225px;
+	margin-right:20px;
+}
+
+
+h1, h3 {
 	color:#B22222;
 	margin-top:0px;
 	font-family:Corbel;	
@@ -8,17 +15,24 @@ h3 {
 	font-size:145%;
 }
 table{
-	border:1px solid black;	
+	width:75%;
+	border:1px solid black;
+	border-collapse:collapse;
+	box-sizing:border-box;
 }
 
 td {
 	border-right:1px solid black;
+	padding-left:10px;
 }
+
 .anio {
 	background:#B0C4DE;
 	font-size:115%;
+	height:2em;
+	padding-left:20px;
 }
-div {
+.col1 {
 	background:blue;
 }
 
