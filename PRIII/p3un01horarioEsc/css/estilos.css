@@ -1,0 +1,23 @@
+﻿h1, h3 {
+	color:#483D8B;
+	text-align:center-left;
+}
+
+hr {
+	width: 60%;
+	float: left;
+}
+
+td {
+	height:50px;
+	padding-left: 10px;	
+	font-family: Arial;
+	border: 1px solid black;
+}
+
+th {
+	height:50px;
+	font-family:Imprint Mt Shadow;
+	background:#FFE4B5;
+	border: 1px solid black;
+}

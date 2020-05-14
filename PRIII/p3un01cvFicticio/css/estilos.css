@@ -14,27 +14,27 @@ h1, h3 {
 h3 {
 	font-size:145%;
 }
-table{
-	width:75%;
+
+table {
+	width:65%;
 	border:1px solid black;
-	border-collapse:collapse;
-	box-sizing:border-box;
+	border-collapse:collapse;	
 }
+
 
 td {
 	border-right:1px solid black;
-	padding-left:10px;
+	padding-left:10px;	
+	box-sizing: border-box;
+	height: 2em;
 }
+
 
 .anio {
 	background:#B0C4DE;
-	font-size:115%;
-	height:2em;
-	padding-left:20px;
+	font-size:115%;		
 }
-.col1 {
-	background:blue;
-}
+
 
 body {
 	font-family:Verdana
